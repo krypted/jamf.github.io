@@ -16,7 +16,28 @@
          For more themes, go to https://github.com/ccampbell/rainbow/tree/master/themes -->
     <link rel="stylesheet" type="text/css" href="https://rawgithub.com/ccampbell/rainbow/master/themes/github.css">
 
-</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+      $(function() {
+        $('#showallrepos a').click(function(e) {
+          var url = $(this).attr('href');
+          window.location.href = url; // ## change url with hash
+          location.reload(); // ## reload page
+          e.preventDefault(); // ## prevent default click action
+        })
+      })
+    </script>
+    <script>
+      $(function() {
+        $('#showsomerepos a').click(function(e) {
+          history.pushState("", document.title, window.location.pathname + window.location.search);
+          location.reload();
+          e.preventDefault();
+        })
+      })
+    </script>
+    
+    </head>
 
 <body class='yui3-skin-sam'>
 
