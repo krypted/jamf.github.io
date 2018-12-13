@@ -19,27 +19,6 @@
     <link rel="stylesheet" type="text/css" href="https://rawgithub.com/ccampbell/rainbow/master/themes/github.css">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <script>
-      $(function() {
-        $('#showallrepos a').click(function(e) {
-          var url = $(this).attr('href');
-          window.location.href = url; // ## change url with hash
-          location.reload(); // ## reload page
-          e.preventDefault(); // ## prevent default click action
-        })
-      })
-    </script>
-
-    <script>
-      $(function() {
-        $('#showsomerepos a').click(function(e) {
-          history.pushState("", document.title, window.location.pathname + window.location.search);
-          location.reload();
-          e.preventDefault();
-        })
-      })
-    </script>
         
     <script src="https://1.www.s81c.com/common/stats/ida_stats.js"></script>
     <link href="https://1.www.s81c.com/common/v18/css/www.css" rel="stylesheet">
@@ -47,37 +26,28 @@
 
     </head>
 
-<body class='yui3-skin-sam'>
+<body>
 
-    <div class="header yui3-u-1">
+    <div>
 
-        <h1 class="yui3-u-1">The Jamf Community</h1>
-        <h2 class="yui3-u">Open Source Projects from the Jamf Community</h2>
+        <h1>The Jamf Community</h1>
+        <h2>Open Source Projects from the Jamf Community</h2>
     
     <div class="content">
+    
         <h2>Jamf Nation Resources</h2>
         <p><a href="http://github.com/jamf/jamf-nation-extension-attributes/">Extension Attributes</a> is where you can find and contribute to the EAs that we've always hosted on Jamf Nation. </p>
-
         <a href="http://github.com/jamf/jamf-nation-extension-attributes" class="yui3-button primary-button">View on Github</a>
-
         <p><a href="http://github.com/jamf/jamf-nation-scripts/">Scripts</a> is where you can find and contribute to the Scripts that we've always hosted on Jamf Nation. </p>
-
         <a href="http://github.com/jamf/jamf-scripts" class="yui3-button primary-button">View on Github</a>
-        
         <p><a href="https://github.com/jamf/Jamf-Nation-Package-Manifests">Package Manifests</a> is where you can find and contribute to the Package Manifests that we've always hosted on Jamf Nation. </p>
-
         <a href="https://github.com/jamf/Jamf-Nation-Package-Manifests" class="yui3-button primary-button">View on Github</a>
-        
         <p><a href="https://github.com/jamf/Jamf-Nation-Licensed-Software-Templates">Licensed Software Templates</a> is where you can find and contribute to the Licensed Software Templates that we've always hosted on Jamf Nation. </p>
-
         <a href="https://github.com/jamf/Jamf-Nation-Licensed-Software-Templates" class="yui3-button primary-button">View on Github</a>
-        
         <p><a href="http://github.com/jamf/jamf-nation-extension-attributes/">Managed Preference Manifests</a> is where you can find and contribute to the Managed Preference Manifests that we've always hosted on Jamf Nation. </p>
-
         <a href="http://github.com/jamf/jamf-nation-extension-attributes" class="yui3-button primary-button">View on Github</a>
         
         <h2>Jamf Projects</h2>
-
         <p>Jamf has a number of other projects available at <a href="http://githubt.com/jamf">Github</a>.</p>
 
     </div>
