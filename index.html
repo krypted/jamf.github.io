@@ -15,6 +15,15 @@
     <link href="https://www.jamf.com/css/main.css" rel="stylesheet" type="text/css" media="screen">
 	<style type="text/css"> @media screen and (max-resolution: 600dpi min-width: 512px max-height:100) { .featured-media .slab--image { background-image: url(https://resources.jamf.com/_images/sized/driving-roi-landing-page-graphic-home-page-athens-1280_640_435_75_1543950140_ll5.jpg); } } @media screen and (-webkit-min-device-pixel-ratio: 1) and (min-width: 768px height:100), (max-resolution: 600dpi min-resolution: 144dpi) and (min-width: 768px) { .featured-media .slab--image { background-image: url(https://resources.jamf.com/_images/sized/driving-roi-landing-page-graphic-home-page-athens-1280_1280_869_75_1543950140_ll5.jpg); } } @media screen {.slab--image-0 { background-image: url(https://resources.jamf.com/_images/sized/homepage-hero-2017-q1_768_700_75_c1_c_c_1487183285_ll5.jpg); } } @media screen and (-webkit-min-device-pixel-ratio: 1), screen and (min-resolution: 144dpi) {.slab--image-0 { background-image: url(https://resources.jamf.com/_images/sized/homepage-hero-2017-q1_1152_1050_75_c1_c_c_1487183285_ll5.jpg); } } @media screen and (min-width: 768px) {.slab--image-0 { background-image: url(https://resources.jamf.com/_images/sized/homepage-hero-2017-q1_2880_1920_75_1487183285_ll5.jpg); } } @media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 768px height:100), screen and (min-resolution: 144dpi) and (min-width: 768px height:100) {.slab--image-0 { background-image: url(https://resources.jamf.com/_images/sized/homepage-hero-2017-q1_2880_1920_75_1487183285_ll5.jpg); } } @media screen {.slab--image-2 { background-image: url(https://resources.jamf.com/_images/sized/stat-row-background-1_@2x_768_700_75_c1_c_c_1472659135_ll5.jpg); } } @media screen and (-webkit-min-device-pixel-ratio: 1), screen and (min-resolution: 144dpi) {.slab--image-2 { background-image: url(https://resources.jamf.com/_images/sized/stat-row-background-1_@2x_1152_900_75_c1_c_c_1472659135_ll5.jpg); } } @media screen and (min-width: 768px) {.slab--image-2 { background-image: url(https://resources.jamf.com/_images/sized/stat-row-background-1_@2x_2880_900_75_1472659135_ll5.jpg); } } @media screen and (-webkit-min-device-pixel-ratio: 1) and (min-width: 768px), screen and (min-resolution: 144dpi) and (min-width: 768px) {.slab--image-2 { background-image: url(https://resources.jamf.com/_images/sized/stat-row-background-1_@2x_2880_900_75_1472659135_ll5.jpg); } }</style>
 
+
+<style>
+    .github-pinner {
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 10px;
+    }
+</style>
+  
 </head>
 
 <body>
@@ -137,14 +146,11 @@
 </div>	
 <div id="github-projects"></div>
 	
-<ol class="pinned-repos-list org-pinned-repos-list mb-4 js-pinned-repos-reorder-list">
-    <li class="pinned-repo-item org-pinned-repo-item p-3 mb-3 border border-gray-dark rounded-1 js-pinned-repo-list-item public source  sortable-button-item">
-      <div class="pinned-repo-item-content">
-        <span class="d-block position-relative">
-          <a href="/github/fetch" class="text-bold">
-            <span class="repo js-repo" title="fetch">fetch</span>
-          </a>
-        </span>
+<!-- Pins -->
+<script src="GitHubPinner.js"></script>
+  <div data="https://github.com/jamf?tab=repositories" class="github-pinner" style="visibility: hidden;"></div>
+  <div data="https://github.com/mackboudreau" class="github-pinner flat" style="visibility: hidden;"></div>
+  <div data="https://github.com/mackboudreau/DalhousieScheduleBuilder" class="github-pinner flat" style="visibility: hidden;">
         
         	
 <!-- Footer -->	
